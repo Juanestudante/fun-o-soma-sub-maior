@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int soma(int a, int b){
+    return a + b;
+}
+int sub(int A, int B){
+    return A - B;
+}
+int maior(int x, int y){
+    if(x>y) return x;
+    else return y;
+}
+int main(){
+
+int a, b ;
+
+printf("digite seu numero: \n");
+scanf("%i", &a);
+printf("digite seu segundo numero: \n");
+scanf("%i", &b);
+
+printf("soma %d\n", soma(a,b));
+printf("subtracao %d\n", sub(a,b));
+printf("maior: %d\n", maior(a,b));
+
+    return 0;
+}
